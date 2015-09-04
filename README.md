@@ -1,5 +1,7 @@
 Shmurgl
 
+A simpl food sharing app.
+
 Meteor
 Foundation
 
