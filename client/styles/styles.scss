@@ -1,1 +1,44 @@
 @import ".meteor/local/build/programs/server/assets/packages/matthew_foundation5-sass/foundation";
+
+// $tabbar-left-section-border: solid 0px scale-color($tabbar-bg, $lightness: -50%) !default;
+
+$shmurglOrange : orange;
+
+.custom-button-class {
+  $bg:orange;
+  @include button(
+  $button-med,$shmurglOrange,false,false,false
+    );
+    }
+
+.main-section{
+  padding: 20px 20px 20px 20px
+}
+
+.button{
+  background-color: orange
+}
+
+// .left-small{
+//   background-color: white
+// }
+
+.tab-bar{
+  background-color: lightgray
+}
+
+.left-off-canvas-menu {
+  background-color: lightgray;
+  color: red;
+
+}
+
+
+.move-right .exit-off-canvas, .move-left .exit-off-canvas {
+  box-shadow:none;
+}
+
+#mainTitle{
+  color: $shmurglOrange
+}
+
